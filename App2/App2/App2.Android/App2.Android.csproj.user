@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SelectedDevice>pixel2_r11</SelectedDevice>
+    <ActiveDebugProfile>pixel2_r11</ActiveDebugProfile>
+    <DefaultDevice>pixel2_r11</DefaultDevice>
+  </PropertyGroup>
+</Project>

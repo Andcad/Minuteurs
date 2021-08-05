@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.NewItemPage"
+             Title="Nouveau">
+    <ContentPage.Content>
+        <StackLayout Spacing="3" Padding="15">
+            <Label Text="EventTitle" FontSize="Medium" />
+            <Entry Text="{Binding EventTitle, Mode=TwoWay}" FontSize="Medium" />
+            <Label Text="Description" FontSize="Medium" />
+            <Entry Text="{Binding Description, Mode=TwoWay}" FontSize="Medium" Margin="0" />
+            <Label Text="Select the time below to be reminded at." />
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Entry Text="{Binding Hours}" Keyboard="Numeric" Placeholder="Hours" WidthRequest="70" HorizontalTextAlignment="End"/>
+                <Entry Text="{Binding Minutes}" Keyboard="Numeric" Placeholder="Minutes" WidthRequest="70" HorizontalTextAlignment="End"/>
+            </StackLayout>
+            <Picker x:Name="picker" Title="Select a color" SelectedItem="{Binding BgColor, Mode=TwoWay}">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Red</x:String>
+                        <x:String>Blue</x:String>
+                        <x:String>Green</x:String>
+                        <x:String>#EB9999</x:String>
+                        <x:String>#96338F</x:String>
+                        <x:String>#8251AE</x:String>
+                        <x:String>#6787FF</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cancel"  Clicked="Cancel_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                <Button Text="Save" Clicked="Save_Clicked" HorizontalOptions="FillAndExpand"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
