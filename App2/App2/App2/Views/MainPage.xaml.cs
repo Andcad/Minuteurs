@@ -1,54 +1,63 @@
-﻿using App2.Models;
-using App2.Views;
+﻿using Minuteurs.Models;
+using Minuteurs.Views;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Diagnostics;
+using System.IO;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Timers;
 using Xamarin.Forms;
+using System.Text.Json;
+using System.Diagnostics;
 
-namespace App2
+namespace Minuteurs
 {
     public partial class MainPage : ContentPage
     {
         private Event _SelectedEvent;
-        internal static Event _EventToDelete { get; set; }
-        internal static Event _EventToAdd { get; set; }
+        internal static Event EventToDelete { get; set; }
+        internal static Event EventToAdd { get; set; }
 
-        private ObservableCollection<Event> _Events { get; set; }
+        private ObservableCollection<Event> EventsList { get; set; }
 
         public MainPage()
         {
             InitializeComponent();
 
-            _Events = GetEvents();
+            //EventsList = GetEvents();
+            EventsList = GetEvents_FileLoadData();
 
-            listView.ItemsSource = _Events;
+            listView.ItemsSource = EventsList;
 
            StartTimer();
+
         }
 
-        private ObservableCollection<Event> GetEvents()
+        private ObservableCollection<Event> GetEvents_FileLoadData()
         {
-            return new ObservableCollection<Event>
+            string _fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TimerManager_Data.txt");
+
+            if (File.Exists(_fileName))
             {
-                new Event{ Id ="1", EventTitle = "Pain Brun", Description="Brun. En harmonie avec la nature...", IsTimerRunning = true, BgColor = "#EB9999", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,12,0), RememberHours = "0", RememberMinutes="2", IsReset=false},
-                new Event{ Id ="2", EventTitle = "Galettes", Description="Généralement de forme ronde", IsTimerRunning = true, BgColor = "#96338F", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,0,6,0), RememberHours = "1", RememberMinutes="22", IsReset=false},
-                new Event{ Id ="3", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#8251AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="4", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#7241AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="5", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#6231AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="6", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#5221AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="7", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#4211AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="8", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#3251AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="9", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#2251AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="10", EventTitle = "Pain George", Description="Blanc. Le meilleur pain en ville!!", IsTimerRunning = false, BgColor = "#1251AE", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "11", RememberMinutes="15", IsReset=false},
-                new Event{ Id ="11", EventTitle = "Baguettes", Description="Longue. À essayer avec du fromage", IsTimerRunning = true, BgColor = "#6787FF", StateBgColor = "#F8F8F8", Date = new DateTime(2021,1,1,1,44,0), RememberHours = "17", RememberMinutes="29", IsReset=false},
-            };
+                string AllText = File.ReadAllText(_fileName);
+                ObservableCollection<Event> events = JsonSerializer.Deserialize<ObservableCollection<Event>>(AllText);
+                return events;
+            }
+            else
+            {
+                return new ObservableCollection<Event>();
+            }
+        }
+
+        private async void FileSaveData(ObservableCollection<Event> events)
+        {
+            string _fileName = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TimerManager_Data.txt");
+            
+            using (FileStream createStream = File.Create(_fileName))
+            {
+                await JsonSerializer.SerializeAsync(createStream, events);
+                createStream.Dispose();
+            }
+            Debug.WriteLine(File.ReadAllText(_fileName));
         }
 
         private void StartTimer()
@@ -64,30 +73,36 @@ namespace App2
 
         private void TimerCallBack(object sender, ElapsedEventArgs e)
         {
-            foreach (var evt in _Events)
+            foreach (var evt in EventsList)
             {
                 if (evt.IsReset)
                 {
                     int.TryParse(evt.RememberHours, out int iRememberHours);
                     int.TryParse(evt.RememberMinutes, out int iRememberMinutes);
                     evt.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, 0);
-                    evt.Seconds = evt.Date.Second.ToString("00");
-                    evt.Minutes = evt.Date.Minute.ToString("00");
                     evt.Hours = evt.Date.Hour.ToString("00");
+                    evt.Minutes = evt.Date.Minute.ToString("00");
+                    evt.Seconds = evt.Date.Second.ToString("00");
                     evt.IsReset = false;
                 }
 
                 if (evt.IsTimerRunning)
                 {
                     evt.Date = evt.Date.AddSeconds(-1);
-                    evt.Seconds = evt.Date.Second.ToString("00");
-                    evt.Minutes = evt.Date.Minute.ToString("00");
                     evt.Hours = evt.Date.Hour.ToString("00");
+                    evt.Minutes = evt.Date.Minute.ToString("00");
+                    evt.Seconds = evt.Date.Second.ToString("00");
                     evt.StateBgColor = "#33cc33";
+
+                    if (evt.Hours == "00" && evt.Minutes == "00" && evt.Seconds == "00")
+                    {
+                        DependencyService.Get<IAudioService>().PlayAudioFile("Kitchen_Timer_Sound_Effect.mp3");
+                    }
                 }
                 else
                 {
                     evt.StateBgColor = "#F8F8F8";
+                    evt.IsTimerRunning = false;
                 }
             }
         }
@@ -110,18 +125,18 @@ namespace App2
         {
             base.OnAppearing();
 
-            if (_EventToDelete != null)
+            if (EventToDelete != null)
             {
-                _Events.Remove(_EventToDelete);
-                _EventToDelete = null;
+                EventsList.Remove(EventToDelete);
+                EventToDelete = null;
             }
 
-            if (_EventToAdd != null)
+            if (EventToAdd != null)
             {
-                _EventToAdd.RememberHours = _EventToAdd.Hours;
-                _EventToAdd.RememberMinutes = _EventToAdd.Minutes;
-                _Events.Add(_EventToAdd);
-                _EventToAdd = null;
+                EventToAdd.RememberHours = EventToAdd.Hours;
+                EventToAdd.RememberMinutes = EventToAdd.Minutes;
+                EventsList.Add(EventToAdd);
+                EventToAdd = null;
             }
 
             if (listView.SelectedItem != null)
@@ -129,6 +144,8 @@ namespace App2
                 listView.SelectedItem = null;
                 _SelectedEvent = null;
             }
+
+            FileSaveData(EventsList);
         }
 
         private void Reset_Clicked(object sender, EventArgs e)
@@ -143,5 +160,10 @@ namespace App2
             MyEvent.Minutes = MyEvent.Date.Minute.ToString("00");
             MyEvent.Hours = MyEvent.Date.Hour.ToString("00");
         }
+    }
+
+    public interface IAudioService
+    {
+        void PlayAudioFile(string filename);
     }
 }

@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace App2.iOS
+namespace Minuteurs.iOS
 {
     public class Application
     {

@@ -23,6 +23,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
     </RootType>
-    <RootType FullName="App2.UWP.MainPage" />
+    <RootType FullName="Minuteurs.UWP.MainPage" />
   </Roots.RootTypes>
 </Roots>

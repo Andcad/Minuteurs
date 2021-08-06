@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\App2.Android.csproj": {}
+    "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\App2.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\App2.Android.csproj": {
+    "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\App2.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\App2.Android.csproj",
+        "projectUniqueName": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\App2.Android.csproj",
         "projectName": "App2.Android",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\App2.Android.csproj",
+        "projectPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\App2.Android.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\obj\\",
+        "outputPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
         "frameworks": {
           "monoandroid11.0": {
             "projectReferences": {
-              "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj": {
-                "projectPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj"
+              "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj": {
+                "projectPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
       "frameworks": {
         "monoandroid11.0": {
           "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.6.1, )"
@@ -56,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj": {
+    "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj",
-        "projectName": "App2",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+        "projectUniqueName": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj",
+        "projectName": "Minuteurs",
+        "projectPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\obj\\",
+        "outputPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -103,6 +107,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

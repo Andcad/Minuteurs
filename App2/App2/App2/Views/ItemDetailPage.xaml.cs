@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using App2.Models;
-
+using Minuteurs.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace App2.Views
+namespace Minuteurs.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ItemDetailPage : ContentPage
@@ -42,7 +37,7 @@ namespace App2.Views
 
         private async void Delete_Clicked(object sender, EventArgs e)
         {
-            MainPage._EventToDelete = SelectedEvent;
+            MainPage.EventToDelete = SelectedEvent;
             await Navigation.PopAsync();
         }
     }

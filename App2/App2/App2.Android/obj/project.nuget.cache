@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "ePohpnxU99R1hHhggye/qY9mSXxqbjbmx8ARv3eZaMSdjfXtka7ZCbEHkFsqrvwW1UC98bpldjEFtW0axD5t4w==",
+  "dgSpecHash": "xeLPz1JvPbFSSZ8/+PwYJLZP+poxfdOsfyMN0p4qEDnJpePdh5NSTfj62pgLX+ZYAIC2gFeeLA6rAtVMTtJC5A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2.Android\\App2.Android.csproj",
+  "projectFilePath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2.Android\\Minuteurs.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\system.text.json\\5.0.2\\system.text.json.5.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

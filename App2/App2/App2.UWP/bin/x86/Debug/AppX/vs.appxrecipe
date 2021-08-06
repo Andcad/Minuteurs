@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=ea2ab415-ca6f-463a-aea1-391e94a5e8d9</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andre\source\repos\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BC59E16A25FDF82D6CFD96473495C4D8AA10DB24D51BEE1E12084DC4B132736D</RegisteredManifestChecksum>
+    <LayoutDir>D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>916D85E7316EF4C82D8907515C5E0F293CA50548792CF882B72C7E6012BBF82F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>576bdef4-afd0-408c-bc7a-dbd2d040c0a8_1.0.0.0_x86__54e2e5z2hy4g0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>576bdef4-afd0-408c-bc7a-dbd2d040c0a8_54e2e5z2hy4g0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>576bdef4-afd0-408c-bc7a-dbd2d040c0a8</RegisteredPackageID>
@@ -27,20 +27,36 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-08-05T05:16:42.625</Modified>
+      <Modified>2021-08-06T06:00:25.380</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
       <PackagePath>entrypoint\App2.UWP.exe</PackagePath>
-      <Modified>2021-08-05T05:16:41.660</Modified>
+      <Modified>2021-08-06T05:57:22.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
+      <Modified>2020-10-19T22:40:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2021-02-05T06:15:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+      <Modified>2020-10-19T22:46:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.encodings.web\5.0.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+      <Modified>2021-02-17T02:53:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.json\5.0.2\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
+      <Modified>2021-03-17T02:34:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -66,9 +82,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2021-02-12T17:39:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll">
-      <PackagePath>App2.dll</PackagePath>
-      <Modified>2021-08-05T05:16:35.998</Modified>
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\Minuteurs.dll">
+      <PackagePath>Minuteurs.dll</PackagePath>
+      <Modified>2021-08-06T05:57:16.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -82,156 +98,160 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2021-02-12T08:08:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Kitchen_Timer_Sound_Effect.mp3">
+      <PackagePath>Assets\Kitchen_Timer_Sound_Effect.mp3</PackagePath>
+      <Modified>2021-08-06T04:04:47.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.386</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.388</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.475</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.478</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.526</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.528</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.531</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.580</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.584</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.587</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.638</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.640</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.693</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.738</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2021-08-03T21:57:24.740</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-08-03T21:57:24.744</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
       <PackagePath>App2.UWP.xr.xml</PackagePath>
-      <Modified>2021-08-05T05:16:41.577</Modified>
+      <Modified>2021-08-06T05:57:22.772</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-08-05T05:16:41.586</Modified>
+      <Modified>2021-08-06T06:00:24.441</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-08-05T05:11:24.125</Modified>
+      <Modified>2021-08-06T06:00:24.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -245,13 +265,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-07-10T04:07:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-08-03T22:06:54.387</Modified>
+      <Modified>2021-08-06T06:00:24.609</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
       <PackagePath>App2.UWP.exe</PackagePath>
-      <Modified>2021-08-05T05:16:42.620</Modified>
+      <Modified>2021-08-06T06:00:25.377</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

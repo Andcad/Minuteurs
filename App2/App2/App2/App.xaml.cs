@@ -1,8 +1,6 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
-namespace App2
+namespace Minuteurs
 {
     public partial class App : Application
     {
@@ -16,6 +14,7 @@ namespace App2
 
         protected override void OnStart()
         {
+
         }
 
         protected override void OnSleep()

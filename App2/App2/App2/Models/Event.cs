@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace App2.Models
+namespace Minuteurs.Models
 {
     internal class Event : INotifyPropertyChanged
     {

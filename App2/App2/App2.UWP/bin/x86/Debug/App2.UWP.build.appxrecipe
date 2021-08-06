@@ -10,26 +10,38 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=ea2ab415-ca6f-463a-aea1-391e94a5e8d9</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andre\source\repos\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
       <PackagePath>entrypoint\App2.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
+      <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.runtime.compilerservices.unsafe\5.0.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.encodings.web\5.0.1\lib\netstandard2.0\System.Text.Encodings.Web.dll">
+      <PackagePath>System.Text.Encodings.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\system.text.json\5.0.2\lib\netstandard2.0\System.Text.Json.dll">
+      <PackagePath>System.Text.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
@@ -49,7 +61,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\App2.dll">
       <PackagePath>App2.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -61,124 +73,127 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft\Xamarin\NuGet\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Kitchen_Timer_Sound_Effect.mp3">
+      <PackagePath>Assets\Kitchen_Timer_Sound_Effect.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
       <PackagePath>App2.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -190,10 +205,10 @@
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\source\repos\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
+    <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
       <PackagePath>App2.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

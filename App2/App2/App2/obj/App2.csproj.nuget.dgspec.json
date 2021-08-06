@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj": {}
+    "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\App2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj": {
+    "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\App2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+        "projectUniqueName": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\App2.csproj",
         "projectName": "App2",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+        "projectPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\App2.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\App2\\App2\\App2\\obj\\",
+        "outputPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

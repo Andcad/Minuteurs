@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.UWP", "App2\App2.UWP\App2.UWP.csproj", "{B72DF6BA-30CB-494B-AEB7-A7D6C29C938C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteurs.UWP", "App2\App2.UWP\Minuteurs.UWP.csproj", "{B72DF6BA-30CB-494B-AEB7-A7D6C29C938C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.Android", "App2\App2.Android\App2.Android.csproj", "{6AA8BAA6-754D-49EF-9011-405D7D9B3854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteurs.Android", "App2\App2.Android\Minuteurs.Android.csproj", "{6AA8BAA6-754D-49EF-9011-405D7D9B3854}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.iOS", "App2\App2.iOS\App2.iOS.csproj", "{D86AC17A-895E-45E6-AE06-9CFFD80D41A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minuteurs.iOS", "App2\App2.iOS\Minuteurs.iOS.csproj", "{D86AC17A-895E-45E6-AE06-9CFFD80D41A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2", "App2\App2\App2.csproj", "{F368350C-0430-405D-B6AD-6367311DC39A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Minuteurs", "App2\App2\Minuteurs.csproj", "{F368350C-0430-405D-B6AD-6367311DC39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

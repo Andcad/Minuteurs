@@ -1,0 +1,16 @@
+D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\Minuteurs.deps.json
+D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\Minuteurs.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\ref\Minuteurs.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\Minuteurs.pdb
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.csprojAssemblyReference.cache
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.AssemblyInfoInputs.cache
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.AssemblyInfo.cs
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.csproj.CoreCompileInputs.cache
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\XamlC.stamp
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\ref\Minuteurs.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2\obj\Debug\netstandard2.0\Minuteurs.pdb

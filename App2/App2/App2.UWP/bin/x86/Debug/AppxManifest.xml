@@ -25,8 +25,8 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="App2.UWP.exe" EntryPoint="App2.UWP.App">
-      <uap:VisualElements DisplayName="App2.UWP" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="App2.UWP" BackgroundColor="transparent">
+    <Application Id="App" Executable="App2.UWP.exe" EntryPoint="Minuteurs.App">
+      <uap:VisualElements DisplayName="Minuteurs" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Minuteurs" BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
