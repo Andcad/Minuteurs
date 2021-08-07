@@ -20,7 +20,7 @@ namespace Minuteurs.UWP
             var player = new MediaPlayer()
             {
                 AutoPlay = false,
-                Source = MediaSource.CreateFromStorageFile(file)
+                Source = MediaSource.CreateFromStorageFile(file),
             };
 
             player.Play();

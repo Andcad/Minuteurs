@@ -28,7 +28,9 @@ namespace Minuteurs.Views
         {
             int.TryParse(SelectedEvent.RememberHours, out int iRememberHours);
             int.TryParse(SelectedEvent.RememberMinutes, out int iRememberMinutes);
-            SelectedEvent.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, 0);
+            int.TryParse(SelectedEvent.RememberSeconds, out int iRememberSeconds);
+
+            SelectedEvent.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, iRememberSeconds);
             SelectedEvent.Seconds = SelectedEvent.Date.Second.ToString("00");
             SelectedEvent.Minutes = SelectedEvent.Date.Minute.ToString("00");
             SelectedEvent.Hours = SelectedEvent.Date.Hour.ToString("00");

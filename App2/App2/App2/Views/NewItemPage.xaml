@@ -13,6 +13,7 @@
             <StackLayout Orientation="Horizontal" Spacing="10">
                 <Entry Text="{Binding Hours}" Keyboard="Numeric" Placeholder="Hours" WidthRequest="70" HorizontalTextAlignment="End"/>
                 <Entry Text="{Binding Minutes}" Keyboard="Numeric" Placeholder="Minutes" WidthRequest="70" HorizontalTextAlignment="End"/>
+                <Entry Text="{Binding Seconds}" Keyboard="Numeric" Placeholder="Seconds" WidthRequest="70" HorizontalTextAlignment="End"/>
             </StackLayout>
             <Picker x:Name="picker" Title="Select a color" SelectedItem="{Binding BgColor, Mode=TwoWay}">
                 <Picker.ItemsSource>

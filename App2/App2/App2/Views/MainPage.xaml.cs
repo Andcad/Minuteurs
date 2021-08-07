@@ -39,8 +39,15 @@ namespace Minuteurs
             if (File.Exists(_fileName))
             {
                 string AllText = File.ReadAllText(_fileName);
-                ObservableCollection<Event> events = JsonSerializer.Deserialize<ObservableCollection<Event>>(AllText);
-                return events;
+                try
+                {
+                    return JsonSerializer.Deserialize<ObservableCollection<Event>>(AllText);
+                }
+                catch
+                {
+                    Debug.WriteLine("Erreur GetEvents_FileLoadData création d'un fichier vierge");
+                    return new ObservableCollection<Event>();
+                }
             }
             else
             {
@@ -79,7 +86,9 @@ namespace Minuteurs
                 {
                     int.TryParse(evt.RememberHours, out int iRememberHours);
                     int.TryParse(evt.RememberMinutes, out int iRememberMinutes);
-                    evt.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, 0);
+                    int.TryParse(evt.RememberSeconds, out int iRememberSeconds);
+
+                    evt.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, iRememberSeconds);
                     evt.Hours = evt.Date.Hour.ToString("00");
                     evt.Minutes = evt.Date.Minute.ToString("00");
                     evt.Seconds = evt.Date.Second.ToString("00");
@@ -94,15 +103,37 @@ namespace Minuteurs
                     evt.Seconds = evt.Date.Second.ToString("00");
                     evt.StateBgColor = "#33cc33";
 
-                    if (evt.Hours == "00" && evt.Minutes == "00" && evt.Seconds == "00")
+                    if (evt.Hours == "00" && evt.Minutes == "00" && evt.Seconds == "00" && evt.IsAudioPlaying == false)
                     {
+                        evt.IsAudioPlaying = true;
+                        evt.Timespan = 5;
+
                         DependencyService.Get<IAudioService>().PlayAudioFile("Kitchen_Timer_Sound_Effect.mp3");
+                    }
+                    else if (evt.IsAudioPlaying)
+                    {
+                        if (evt.Timespan == 0)
+                        {
+                            evt.Timespan = 5;
+                            DependencyService.Get<IAudioService>().PlayAudioFile("Kitchen_Timer_Sound_Effect.mp3");
+                            GC.Collect();
+                        }
+                        else
+                        {
+                            evt.Timespan--;
+                        }
                     }
                 }
                 else
                 {
                     evt.StateBgColor = "#F8F8F8";
                     evt.IsTimerRunning = false;
+
+                    if (evt.IsAudioPlaying)
+                    {
+                        evt.IsAudioPlaying = false;
+                        GC.Collect();
+                    }
                 }
             }
         }
@@ -133,8 +164,14 @@ namespace Minuteurs
 
             if (EventToAdd != null)
             {
+                int.TryParse(EventToAdd.Hours, out int iRememberHours);
+                int.TryParse(EventToAdd.Minutes, out int iRememberMinutes);
+                int.TryParse(EventToAdd.Seconds, out int iRememberSeconds);
+                EventToAdd.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, iRememberSeconds);
+
                 EventToAdd.RememberHours = EventToAdd.Hours;
                 EventToAdd.RememberMinutes = EventToAdd.Minutes;
+                EventToAdd.RememberSeconds = EventToAdd.Seconds;
                 EventsList.Add(EventToAdd);
                 EventToAdd = null;
             }
@@ -155,7 +192,9 @@ namespace Minuteurs
 
             int.TryParse(MyEvent.RememberHours, out int iRememberHours);
             int.TryParse(MyEvent.RememberMinutes, out int iRememberMinutes);
-            MyEvent.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, 0);
+            int.TryParse(MyEvent.RememberSeconds, out int iRememberSeconds);
+
+            MyEvent.Date = new DateTime(2021, 1, 1, iRememberHours, iRememberMinutes, iRememberSeconds);
             MyEvent.Seconds = MyEvent.Date.Second.ToString("00");
             MyEvent.Minutes = MyEvent.Date.Minute.ToString("00");
             MyEvent.Hours = MyEvent.Date.Hour.ToString("00");

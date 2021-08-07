@@ -11,7 +11,7 @@ namespace Minuteurs.Models
 
         private string _EventTitle;
         private string _Description;
-        private TimeSpan _Timespan;
+        private int _Timespan;
         private string _StateBgColor;
         private string _Seconds;
         private string _Minutes;
@@ -21,8 +21,10 @@ namespace Minuteurs.Models
         private DateTime _Date;
         private string _Id;
         private bool _IsReset;
+        private bool _IsAudioPlaying;
         private string _RememberHours;
         private string _RememberMinutes;
+        private string _RememberSeconds;
 
         public string Id
         {
@@ -76,6 +78,11 @@ namespace Minuteurs.Models
             get { return _IsReset; }
             set { SetProperty(ref _IsReset, value); }
         }
+        public bool IsAudioPlaying
+        {
+            get { return _IsAudioPlaying; }
+            set { SetProperty(ref _IsAudioPlaying, value); }
+        }
         public string RememberHours
         {
             get { return _RememberHours; }
@@ -86,8 +93,13 @@ namespace Minuteurs.Models
             get { return _RememberMinutes; }
             set { SetProperty(ref _RememberMinutes, value); }
         }
+        public string RememberSeconds
+        {
+            get { return _RememberSeconds; }
+            set { SetProperty(ref _RememberSeconds, value); }
+        }
 
-        public TimeSpan Timespan
+        public int Timespan
         {
             get { return _Timespan; }
             set { SetProperty(ref _Timespan, value); }

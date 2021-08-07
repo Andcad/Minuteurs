@@ -28,7 +28,8 @@ namespace Minuteurs.Views
                 Hours = Date.Hour.ToString("00"),
                 StateBgColor = "#F8F8F8",
                 IsTimerRunning = false,
-                IsReset = false
+                IsReset = false,
+                IsAudioPlaying = false
         };
 
             BindingContext = MyEvent;
