@@ -5,7 +5,7 @@
              Title="Informations">
     <ContentPage.Content>
         <StackLayout Spacing="20" Padding="15">
-            <Label Text="EventTitle" FontSize="Medium" />
+            <Label Text="Title" FontSize="Medium" />
             <Entry Text="{Binding EventTitle, Mode=TwoWay}" FontSize="Medium" />
             <Label Text="Description" FontSize="Medium" />
             <Entry Text="{Binding Description, Mode=TwoWay}" FontSize="Medium" Margin="0" />
@@ -21,16 +21,30 @@
                         <x:String>Red</x:String>
                         <x:String>Blue</x:String>
                         <x:String>Green</x:String>
-                        <x:String>#EB9999</x:String>
-                        <x:String>#96338F</x:String>
-                        <x:String>#8251AE</x:String>
-                        <x:String>#6787FF</x:String>
+                        <x:String>Indigo</x:String>
+                        <x:String>Violet</x:String>
+                        <x:String>Black</x:String>
+                        <x:String>Salmon</x:String>
+                        <x:String>Crimson</x:String>
+                        <x:String>IndianRed</x:String>
+                        <x:String>Gray</x:String>
+                        <x:String>Yellow</x:String>
+                        <x:String>Orange</x:String>
+                        <x:String>Pink</x:String>
+                        <x:String>HotPink</x:String>
+                        <x:String>PaleVioletRed</x:String>
+                        <x:String>Tomato</x:String>
+                        <x:String>Lavender</x:String>
+                        <x:String>Plum</x:String>
+                        <x:String>RebeccaPurple</x:String>
+                        <x:String>LightCyan</x:String>
+                        <x:String>LightBlue</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>
             <Switch IsToggled="{Binding IsTimerRunning}" MinimumHeightRequest="100" MinimumWidthRequest="100"/>
             <Button Text="RESET" Clicked="Reset_Clicked" />
-            <Button Text="Delete" Clicked="Delete_Clicked" BackgroundColor="Red" Margin="0,50,0,0"/>
+            <Button Text="Delete" Clicked="Delete_Clicked" BackgroundColor="Red" Margin="0,5,0,0"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

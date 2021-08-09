@@ -75,7 +75,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj",
-        "projectName": "Minuteurs",
+        "projectName": "Timers Manager",
         "projectPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\Minuteurs.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
         "outputPath": "D:\\documents\\GitHub\\Minuteurs\\App2\\App2\\App2\\obj\\",

@@ -26,8 +26,6 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Xamarin.Forms.Pla
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Minuteurs.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Minuteurs.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\Minuteurs.UWP.csprojAssemblyReference.cache
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\App.g.i.cs
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\App.g.cs
@@ -67,3 +65,5 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\MultipleQualifier
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160895180000000.json
 D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424959200000000.json
+D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Timers Manager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Timers Manager.pdb

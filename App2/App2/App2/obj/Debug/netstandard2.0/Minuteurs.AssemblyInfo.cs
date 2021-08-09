@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Minuteurs")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Timers Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Minuteurs")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Minuteurs")]
+[assembly: System.Reflection.AssemblyProductAttribute("Timers Manager")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Timers Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.

@@ -1022,7 +1022,7 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
-      "Minuteurs/1.0.0": {
+      "Timers Manager/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1031,10 +1031,10 @@
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
-          "bin/placeholder/Minuteurs.dll": {}
+          "bin/placeholder/Timers Manager.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Minuteurs.dll": {}
+          "bin/placeholder/Timers Manager.dll": {}
         }
       }
     }
@@ -2313,7 +2313,7 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
-    "Minuteurs/1.0.0": {
+    "Timers Manager/1.0.0": {
       "type": "project",
       "path": "../App2/Minuteurs.csproj",
       "msbuildProject": "../App2/Minuteurs.csproj"
@@ -2321,8 +2321,8 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
-      "Minuteurs >= 1.0.0",
       "System.Text.Json >= 5.0.2",
+      "Timers Manager >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]

@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Minuteurs.Views.NewItemPage"
-             Title="Nouveau">
+             Title="ADD">
     <ContentPage.Content>
         <StackLayout Spacing="3" Padding="15">
-            <Label Text="EventTitle" FontSize="Medium" />
+            <Label Text="Title" FontSize="Medium" />
             <Entry Text="{Binding EventTitle, Mode=TwoWay}" FontSize="Medium" />
             <Label Text="Description" FontSize="Medium" />
             <Entry Text="{Binding Description, Mode=TwoWay}" FontSize="Medium" Margin="0" />
@@ -21,10 +21,24 @@
                         <x:String>Red</x:String>
                         <x:String>Blue</x:String>
                         <x:String>Green</x:String>
-                        <x:String>#EB9999</x:String>
-                        <x:String>#96338F</x:String>
-                        <x:String>#8251AE</x:String>
-                        <x:String>#6787FF</x:String>
+                        <x:String>Indigo</x:String>
+                        <x:String>Violet</x:String>
+                        <x:String>Black</x:String>
+                        <x:String>Salmon</x:String>
+                        <x:String>Crimson</x:String>
+                        <x:String>IndianRed</x:String>
+                        <x:String>Gray</x:String>
+                        <x:String>Yellow</x:String>
+                        <x:String>Orange</x:String>
+                        <x:String>Pink</x:String>
+                        <x:String>HotPink</x:String>
+                        <x:String>PaleVioletRed</x:String>
+                        <x:String>Tomato</x:String>
+                        <x:String>Lavender</x:String>
+                        <x:String>Plum</x:String>
+                        <x:String>RebeccaPurple</x:String>
+                        <x:String>LightCyan</x:String>
+                        <x:String>LightBlue</x:String>
                     </x:Array>
                 </Picker.ItemsSource>
             </Picker>

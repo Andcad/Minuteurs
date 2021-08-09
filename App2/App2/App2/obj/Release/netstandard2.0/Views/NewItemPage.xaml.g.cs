@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("App2.Views.NewItemPage.xaml", "Views/NewItemPage.xaml", typeof(global::App2.Views.NewItemPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Timers Manager.Views.NewItemPage.xaml", "Views/NewItemPage.xaml", typeof(global::Minuteurs.Views.NewItemPage))]
 
-namespace App2.Views {
+namespace Minuteurs.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NewItemPage.xaml")]

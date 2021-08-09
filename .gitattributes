@@ -1,2 +1,21 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Gradle files
+.gradle/
+build/
+
+# Log Files
+*.log
+
+# Local configuration file (sdk path, etc)
+local.properties
+
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Android Studio captures folder
+captures/

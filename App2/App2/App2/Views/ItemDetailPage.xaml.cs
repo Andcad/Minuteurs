@@ -39,8 +39,14 @@ namespace Minuteurs.Views
 
         private async void Delete_Clicked(object sender, EventArgs e)
         {
-            MainPage.EventToDelete = SelectedEvent;
-            await Navigation.PopAsync();
+            bool result = await DisplayAlert("Alert!", "Do you really want to DELETE this timer?", "Yes", "No");
+
+            if (result)
+            {
+                //user wants to delete this timer
+                MainPage.EventToDelete = SelectedEvent;
+                await Navigation.PopAsync();
+            }
         }
     }
 }

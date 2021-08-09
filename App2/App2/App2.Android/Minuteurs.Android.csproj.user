@@ -4,5 +4,6 @@
     <SelectedDevice>pixel2_r11</SelectedDevice>
     <ActiveDebugProfile>pixel2_r11</ActiveDebugProfile>
     <DefaultDevice>pixel2_r11</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

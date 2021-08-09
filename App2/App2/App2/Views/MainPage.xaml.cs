@@ -199,6 +199,34 @@ namespace Minuteurs
             MyEvent.Minutes = MyEvent.Date.Minute.ToString("00");
             MyEvent.Hours = MyEvent.Date.Hour.ToString("00");
         }
+
+        private void MoveItemBottom_Clicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+            var MyEvent = button.CommandParameter as Event;
+
+            int index = EventsList.IndexOf(MyEvent);
+
+            if (EventsList.Count > index + 1)
+            {
+                EventsList.RemoveAt(index);
+                EventsList.Insert(index + 1, MyEvent);
+            }
+        }
+
+        private void MoveItemTop_Clicked(object sender, EventArgs e)
+        {
+            var button = sender as Button;
+            var MyEvent = button.CommandParameter as Event;
+
+            int index = EventsList.IndexOf(MyEvent);
+
+            if (index > 0)
+            {
+                EventsList.RemoveAt(index);
+                EventsList.Insert(index - 1, MyEvent);
+            }
+        }
     }
 
     public interface IAudioService
