@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Minuteurs.Views.MainPage.xaml", "Views/MainPage.xaml", typeof(global::Minuteurs.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("Timers Manager.Views.MainPage.xaml", "Views/MainPage.xaml", typeof(global::Minuteurs.MainPage))]
 
 namespace Minuteurs {
     

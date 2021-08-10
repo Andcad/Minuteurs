@@ -1,3 +1,12 @@
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\TimersManager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\TimersManager.pdb
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager.apk
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager.aab
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.aab
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.apk
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.apk.idsig
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\Timers Manager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\Timers Manager.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\build.props
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\adb.props
@@ -25,7 +34,12 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\R.txt
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\R.cs.flag
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\Minuteurs.Android.csproj.CoreCompileInputs.cache
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\Minuteurs.Android.csproj.CopyComplete
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\TimersManager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\TimersManager.pdb
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.apk
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\base.zip
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.aab
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.apks
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\res\values\styles.xml
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\res\values\colors.xml
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
@@ -94,6 +108,10 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\asset
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\System.Xml.Linq.dll
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\System.Xml.Linq.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\System.Xml.pdb
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Timers Manager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Timers Manager.pdb
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\TimersManager.dll
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\TimersManager.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Activity.dll
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Activity.pdb
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Xamarin.AndroidX.Annotation.dll
@@ -425,6 +443,7 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\c
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc643f46942d9dd1fff9\VisualElementTracker_AttachTracker.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc643f46942d9dd1fff9\WebViewRenderer.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc643f46942d9dd1fff9\WebViewRenderer_JavascriptResult.java
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc6447ec44b34a877a88\MainActivity.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc64720bb2db43a66fe9\ButtonRenderer.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc64720bb2db43a66fe9\CarouselPageRenderer.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc64720bb2db43a66fe9\FormsFragmentPagerAdapter_1.java
@@ -533,6 +552,7 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\m
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\mono\MonoPackageManager_Resources.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\xamarin\essentials\fileProvider.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\packaged_resources
+D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\com\visstop\timersmanager\R.java
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\compressed_assemblies.arm64-v8a.s
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\compressed_assemblies.armeabi-v7a.s
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\compressed_assemblies.x86.s
@@ -561,23 +581,3 @@ D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\stamp\_Conver
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\TimersManager.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\TimersManager.pdb
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager.apk
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager.aab
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.aab
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.apk
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\com.visstop.timersmanager-Signed.apk.idsig
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\Timers Manager.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\bin\Debug\Timers Manager.pdb
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\TimersManager.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\TimersManager.pdb
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.apk
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.aab
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\bin\com.visstop.timersmanager.apks
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Timers Manager.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\Timers Manager.pdb
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\TimersManager.dll
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\assets\TimersManager.pdb
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\crc6447ec44b34a877a88\MainActivity.java
-D:\documents\GitHub\Minuteurs\App2\App2\App2.Android\obj\Debug\110\android\src\com\visstop\timersmanager\R.java

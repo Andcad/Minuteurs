@@ -17,7 +17,7 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <ContentView>
-                            <Frame HasShadow="True" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="120" BackgroundColor="{Binding BgColor}">
+                            <Frame HasShadow="True" CornerRadius="15" Margin="0,5" Padding="10" HeightRequest="150" BackgroundColor="{Binding BgColor}">
                                 <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="0.5*"/>
@@ -43,9 +43,9 @@
                                             <ColumnDefinition Width="0.60*"/>
                                             <ColumnDefinition Width="0.10*"/>
                                         </Grid.ColumnDefinitions>
-                                        <StackLayout Orientation="Horizontal" Grid.Column="0" Spacing="0" >
-                                            <Switch HeightRequest="20" WidthRequest="43" ThumbColor="{Binding StateBgColor}" IsToggled="{Binding IsTimerRunning}" HorizontalOptions="Start" Margin="0,-10,0,0" />
-                                            <Button Text="RESET" Clicked="Reset_Clicked" CornerRadius="25" CommandParameter="{Binding .}" HorizontalOptions="Start" HeightRequest="40" WidthRequest="70" />
+                                        <StackLayout Orientation="Vertical" Grid.Column="0" Spacing="5" Margin="0,-15,0,0">
+                                            <Switch HeightRequest="50" WidthRequest="43" ThumbColor="{Binding StateBgColor}" IsToggled="{Binding IsTimerRunning}" HorizontalOptions="Center" Margin="0,-10,0,0" />
+                                            <Button Text="RESET" Clicked="Reset_Clicked" CommandParameter="{Binding .}" HorizontalOptions="FillAndExpand" HeightRequest="40" WidthRequest="55" FontSize="11" />
                                         </StackLayout>
                                         <StackLayout Orientation="Horizontal"  HorizontalOptions="Center" Spacing="15" Grid.Column="1" Margin="0,-10,0,0">
                                             <StackLayout>
