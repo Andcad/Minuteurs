@@ -64,7 +64,6 @@ namespace Minuteurs
                 await JsonSerializer.SerializeAsync(createStream, events);
                 createStream.Dispose();
             }
-            Debug.WriteLine(File.ReadAllText(_fileName));
         }
 
         private void StartTimer()

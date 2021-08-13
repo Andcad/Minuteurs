@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-08-10T05:25:25.690</Modified>
+      <Modified>2021-08-13T05:18:56.612</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
       <PackagePath>entrypoint\App2.UWP.exe</PackagePath>
-      <Modified>2021-08-10T05:25:23.892</Modified>
+      <Modified>2021-08-13T05:18:55.164</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\microsoft.bcl.asyncinterfaces\5.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -84,7 +84,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2\bin\Debug\netstandard2.0\Timers Manager.dll">
       <PackagePath>Timers Manager.dll</PackagePath>
-      <Modified>2021-08-10T05:45:53.578</Modified>
+      <Modified>2021-08-13T05:18:47.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -247,11 +247,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-08-10T05:25:23.780</Modified>
+      <Modified>2021-08-13T05:18:55.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-08-10T05:25:23.780</Modified>
+      <Modified>2021-08-13T05:18:55.076</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -271,7 +271,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\documents\GitHub\Minuteurs\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
       <PackagePath>App2.UWP.exe</PackagePath>
-      <Modified>2021-08-10T05:25:25.685</Modified>
+      <Modified>2021-08-13T05:18:56.606</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

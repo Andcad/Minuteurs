@@ -55,7 +55,7 @@
 
 	/* 3: Mono.Android.dll */
 	/* uncompressed_file_size */
-	.long	2135552
+	.long	2136064
 	/* loaded */
 	.byte	0
 	/* data */
@@ -190,7 +190,7 @@
 
 	/* 18: Timers Manager.dll */
 	/* uncompressed_file_size */
-	.long	195584
+	.long	196096
 	/* loaded */
 	.byte	0
 	/* data */
@@ -577,7 +577,7 @@
 
 	/* 61: Xamarin.Essentials.dll */
 	/* uncompressed_file_size */
-	.long	26112
+	.long	27136
 	/* loaded */
 	.byte	0
 	/* data */
